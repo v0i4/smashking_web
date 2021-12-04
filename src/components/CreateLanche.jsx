@@ -37,7 +37,7 @@ function CreateLanche() {
             foto: input.foto
         }
 
-        console.log(newLanche)
+        console.log("ADICIONANDO: novoLanche:"+newLanche)
         api.post('/lanches', newLanche)
         
     }
@@ -45,7 +45,7 @@ function CreateLanche() {
 
 
     return <div class="container">
-                <h1>Cadastrar Lanche</h1>
+                <h1>Gerenciar Cardapio</h1>
 
                 <form>
                     <div className="form-group">
